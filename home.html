@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joyce Borlado Bondocoy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <style>
+      body {
+        font-family: "Quicksand", sans-serif;
+        margin: 0;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      p {
+        font-size: 1.25rem;
+      }
+
+      .profile {
+        text-align: center;
+        margin: 5% auto;
+        max-width: 60%;
+      }
+
+      #about-me {
+        padding: 5%;
+        text-align: justify;
+      }
+
+      #education,
+      #contact-me {
+        padding: 5%;
+        text-align: center;
+      }
+
+      /* .white {
+        color: #053c40;
+      }
+
+      .green {
+        background-color: #032d30;
+        color: white;
+      } */
+
+      a {
+        text-decoration: none;
+        font-size: 1.25rem;
+      }
+
+      span {
+        margin: 30px;
+      }
+
+      /* Form */
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        font-family: "Quicksand", sans-serif;
+      }
+
+      input[type="submit"] {
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-family: "Quicksand", sans-serif;
+        font-size: 1rem;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #032d30;
+        color: white;
+      }
+
+      .container {
+        border-radius: 5px;
+        /* background-color: #3c6f73; */
+        width: 40%;
+        margin: 3% auto;
+        padding: 3%;
+        text-align: left;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="home">
+      <section class="white profile">
+        <img
+          src="images/profile-pic.png"
+          alt="Profile Picture"
+          height="200px"
+        />
+        <div>
+          <h1>Joyce Borlado Bondocoy</h1>
+          <p>A teacher and an aspiring web developer</p>
+        </div>
+      </section>
+    </div>
+    <hr />
+    <section class="green" id="about-me">
+      <h2>About me</h2>
+      <p>
+        I am a licensed professional teacher who has recently discovered a
+        strong interest in web development. Fascinated by the endless
+        possibilities of the digital world, I am currently learning HTML, CSS,
+        and JavaScript to design and build engaging websites. My journey into
+        web development has also included hands-on experience with WordPress,
+        where I have successfully created several websites. This new interest
+        allows me to explore my creativity and technical skills in a fresh and
+        exciting way.
+      </p>
+      <p>
+        Balancing my passion for teaching with my enthusiasm for web
+        development, I am excited to see how these two fields can complement
+        each other. By integrating technology into education, I aim to create
+        innovative learning experiences for my students. As I continue to expand
+        my skills and knowledge, I look forward to discovering new ways to merge
+        my expertise in teaching with my growing proficiency in web development.
+      </p>
+    </section>
+    <hr />
+    <section class="white" id="education">
+      <h2>Education</h2>
+      <p>
+        Master of Arts in Physics Education <br />
+        2017-2019 <br />
+        Bicol University
+      </p>
+      <p>
+        Bachelor in Secondary Education major in Physics <br />
+        2013-2017 <br />
+        Bicol University
+      </p>
+    </section>
+    <hr />
+    <section class="green" id="contact-me">
+      <h2>Contact Me</h2>
+      <p>
+        Let’s talk 👋 Don’t hesitate to reach out with the contact information
+        below, or send a message using the form.
+      </p>
+      <div class="container">
+        <form action="action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      <div>
+        <span>
+          <i class="fab fa-linkedin"></i> LinkedIn:
+          <a href="https://linkedin.com/in/joyce-borlado-aa0352266"
+            >Joyce Borlado</a
+          >
+        </span>
+        <span>
+          <i class="fab fa-facebook"></i> Facebook:
+          <a href="https://facebook.com">Joyce Borlado</a>
+        </span>
+        <span>
+          <i class="fas fa-globe"></i> Website:
+          <a href="https://joyceborlado.roycesites.com"
+            >joyceborlado.roycesites.com</a
+          >
+        </span>
+        <p>&copy; 2023 Joyce Borlado. All rights reserved.</p>
+      </div>
+    </section>
+  </body>
+</html>
